@@ -22,10 +22,9 @@ body {
 .centre {
   margin: 0;
   position: absolute;
-  top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
 }
 
 .button{
@@ -50,7 +49,6 @@ body {
 .title{
   padding-left:25px;
   position: relative;
-  width: 500px;
   max-width: 60vw;
   height: auto;
   margin-bottom:1.2vw;
@@ -68,9 +66,8 @@ body {
 }
 
 h1{
-  text-align: center;
+  text-align: left;
   font-family: 'Aref Ruqaa';
-  margin-bottom: 10px;
   text-shadow:  0px 0px 10px grey;
 }
 
@@ -89,93 +86,47 @@ a{
   text-shadow: 0px 0px 10px grey;
 }
 
-@media screen and (min-width: 601px) {
-  h1 {
-    font-size: 60px;
-    line-height: 60px;
-  }
-  .button{
-    font-size: 30px;
-    border-radius: 25px;
-    padding: 25px;
-    padding-top:27px;
-    width: 500px;
-    max-width: 60vw;
-    margin-bottom:24px;
-  }
-  #projectImage{
-    display:inline-block;
-    top:-2.5px;
-    width:35px;
-  }
-  footer{
-    font-size: 10px;
-    padding-bottom: 13px;
-  }
+h1 {
+  font-size: 60px;
+  line-height: 60px;
 }
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 45px;
-    line-height: 40px;
-    margin-bottom: 18px;
-  }
-  .button{
-    font-size: 22px;
-    border-radius: 25px;
-    padding: 25px;
-    padding-top:27px;
-    width: 500px;
-    max-width: 60vw;
-    margin-bottom:20px;
-  }
-  #projectImage{
-    height:auto;
-    top:-3.5px;
-    width:30px;
-  }
-  footer{
-    font-size: 7px;
-    padding-bottom: 8px;
-  }
+
+.buttonGridWrapper {
+  display: grid;
+  align-items: center;
+  grid-template-columns: fit-content;
+  column-gap: 5px;
 }
-@media screen and (min-width: 800px) {
-  h1 {
-    font-size: 80px;
-    line-height: 70px;
-    margin-bottom: 25px;
-  }
-  .button{
-    font-size: 40px;
-    border-radius: 25px;
-    padding: 25px;
-    padding-top:27px;
-    width: 500px;
-    max-width: 60vw;
-    margin-bottom:28px;
-  }
-  #projectImage{
-    height:auto;
-    top:1px;
-    width:40px;
-  }
-  footer{
-    font-size: 14px;
-    padding-bottom: 17px;
-  }
+
+.button{
+  font-size: 30px;
+  border-radius: 25px;
+  padding: 25px;
+  padding-top:27px;
+  width: 75vw;
+  margin-bottom:24px;
+}
+#projectImage{
+  display:inline-block;
+  top:-2.5px;
+  width:35px;
+}
+footer{
+  font-size: 10px;
+  padding-bottom: 13px;
 }
 
 footer{
   text-align: center;
   height: 0.5vw;
-  margin-top:auto;
   min-height: 5px;
   color:white;
   padding-top: 1vw;
-  position: fixed;
   width:100%;
-  bottom: 0;
-  margin-top:2%;
+  font-size: 8pt;
   text-decoration:none;
+  bottom: 0;
+  
 }
 #footerImage{
   height:120%;
