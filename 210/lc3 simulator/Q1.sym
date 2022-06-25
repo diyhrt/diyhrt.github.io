@@ -1,0 +1,10 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	Push              3011
+//	hello             3019
+//	EMPTY             3017
+//	EXIT              3018
+//	Pop               3014
+
