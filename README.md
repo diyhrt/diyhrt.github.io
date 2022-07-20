@@ -1,5 +1,5 @@
-[![readmebanner](https://user-images.githubusercontent.com/41028518/174542156-7edc76ca-55a7-473c-a85a-f3209e692ec9.png)](diyhrt.github.io/)
-<h1 align="center">The DIY HRT Directory </br> https://diyhrt.github.io
+[![readmebanner](https://raw.githubusercontent.com/diyhrt/diyhrt.github.io/main/images/readmebanner.png)](diyhrt.wiki/)
+<h1 align="center">The DIY HRT Directory </br> https://diyhrt.wiki
 <br/><br/></h1>
 
 <br/>
@@ -18,7 +18,7 @@ If you've found an issue on the site (broken links, spelling errors, etc), pleas
 <br/>
 
 ### 💌 Contact:
-If you want to get in touch, please email [hrtinfo@protonmail.com](mailto:hrtinfo@protonmail.com) or reach out directly at [https://diyhrt.github.io/contact](https://diyhrt.github.io/contact).
+If you want to get in touch, please email [hrtinfo@protonmail.com](mailto:hrtinfo@protonmail.com) or reach out directly at [diyhrt.wiki/contact](https://diyhrt.wiki/contact).
 
 
 
